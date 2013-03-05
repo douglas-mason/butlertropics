@@ -1,6 +1,7 @@
-﻿@{
+﻿@model IEnumerable<tropical.Models.ViewModels.PlayerView>
+@{
     ViewBag.Title = "Index";
 }
 
 <h2>Meet the team</h2>
-@Html.Partial("_PlayerProfile")
+@Html.Partial("_PlayerProfile", Model)

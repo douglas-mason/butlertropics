@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Team>
+  <Player>
+    <FirstName>Alijah</FirstName>
+    <LastName>Robinson</LastName>
+    <Grade>8</Grade>
+    <Position>Guard</Position>
+    <Height>5'8"</Height>
+    <JerseyNumber>22</JerseyNumber>
+    <Quote>3 buckets</Quote>
+  </Player>
+  <Player>
+    <FirstName>Andrew</FirstName>
+    <LastName>Yonkers</LastName>
+    <Grade>8</Grade>
+    <Position>Forward</Position>
+    <Height>6'1"</Height>
+    <JerseyNumber>12</JerseyNumber>
+    <Quote>I can dunk too</Quote>
+  </Player>
+  <Player>
+    <FirstName>Jake</FirstName>
+    <LastName>J.</LastName>
+    <Grade>8</Grade>
+    <Position>Guard</Position>
+    <Height>5'9"</Height>
+    <JerseyNumber>31</JerseyNumber>
+    <Quote>Double team this</Quote>
+  </Player>
+  <Player>
+    <FirstName>Luke</FirstName>
+    <LastName>S.</LastName>
+    <Grade>8</Grade>
+    <Position>Guard</Position>
+    <Height>5'6"</Height>
+    <JerseyNumber>3</JerseyNumber>
+    <Quote>Got Handles</Quote>
+  </Player>
+</Team>
