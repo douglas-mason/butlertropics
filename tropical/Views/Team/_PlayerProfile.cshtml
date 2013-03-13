@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<tropical.Models.ViewModels.PlayerView>
-<div class="row">
+<div class="row hidden-phone">
     <div class="span9">
         <div class="row">
             <div class="span3">
@@ -10,27 +10,25 @@
                 <ol class="carousel-indicators">
                     @for (int i = 0; i < Model.Count(); i++)
                     {
-                        <li data-target="#myCarousel" data-slide-to="@i" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="@i" @if(i==0){<text>class="active"</text>}></li>
                     }
-@*
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>*@
                 </ol>
                 <!-- Carousel items -->
                 <div class="carousel-inner">
                     @foreach (var item in Model)
                     {
-                        <div class="item" style="height: 300px">
+                        
+                        <div class="@if(item == Model.First()){<text>active </text>}item" style="height: 300px">
                             <div class="span3 offset3">
                                 <img class="img-polaroid" src="~/Content/images/placeholder.png" />
                             </div>
                             <div class="span3">
-                                <h3>@item.FirstName @item.LastName</h3>
+                                <h3>@item.FirstName @item.LastName (#@item.JerseyNumber)</h3>
                                 <ul>
-                                    <li>Poistion: @item.Position</li>                                       
-                                    <li>Grade: @item.Grade</li>                                    
-                                    <li>Height: @item.Height</li>                                    
-                                    <li>"@item.Quote"</li>
+                                    @if(!@item.Position.IsEmpty()){<li><strong>Poistion: </strong>@item.Position</li>}
+                                    @if(!@item.Grade.IsEmpty()){<li><strong>Grade: </strong>@item.Grade</li>}                              
+                                    @if(!@item.Height.IsEmpty()){<li><strong>Height: </strong>@item.Height</li>}                                 
+                                    @if(!@item.Quote.IsEmpty()){<li>"@item.Quote"</li>}
                                 </ul>
                             </div>
                         </div>

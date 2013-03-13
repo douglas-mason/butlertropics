@@ -3,56 +3,42 @@
 }
 
 <div class="row">
-    <div class="span7">
-        <div class="hero-unit">
+    <div class="span10 hero-unit hidden-phone">
+        <div class="row">
+            <div class="span6">
             <h1>Let's Get Tropical!</h1>
-            Welcome to the 8th grade AAU basketball team, the Butler Tropics.
+                Welcome to the 8th grade AAU basketball team, the Butler Tropics.
+                </div>
+            <div class="span4"><img class="img-rounded" src="~/Content/images/butler-tropics-team-logo.png" /></div>
         </div>
     </div>
-    <div class="span3">
+    <div class="span3 visible-phone">
         <img class="img-rounded" src="~/Content/images/butler-tropics-team-logo.png" />
+        <div class="text-center"><p><strong>Let's Get Tropical!</strong></p>
+            <p>Welcome to the 8th grade AAU basketball team, <br />the Butler Tropics.</p></div>
     </div>
 </div>
 <div class="row">
-    <div class="span9">
-        <div id="myCarousel" class="carousel slide">
+    <div class="span12">
+        <div id="homeCarousel" class="carousel slide">
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                @for (int i = 0; i < 5; i++)
+                    {
+                        <li data-target="#myCarousel" data-slide-to="@i" @if(i==0){<text>class="active"</text>}></li>
+                    }
             </ol>
             <!-- Carousel items -->
             <div class="carousel-inner">
-                <div class="active item" style="height: 300px">
-                    <div class="row">
-                        <div class="span4 offset2">
-                            <h2>Meet The Team</h2>
-                            <img class="img-polaroid" src="~/Content/images/player-photo.jpg" />
-                        </div>
+                @for (int i = 0; i < 5; i++)
+                {
+                    <div class="@if (i == 0){<text>active </text>}item">
+                            <img class="img-polaroid" style="margin-left: auto;margin-right: auto;"  src="~/Content/images/home/carousel-@(i+".jpg")" />
                     </div>
-
-                </div>
-                <div class="item" style="height: 300px !important">
-                    <div class="row">
-                        <div class="span4 offset2">
-                            <h2>Check out Tropic Gear</h2>
-                            <div class="alert alert-danger">Sold out!</div>
-                            <img class="img-polaroid" src="~/Content/images/team-gear.jpg" />
-                        </div>
-                    </div>
-                </div>
-                <div class="item" style="height: 300px">
-                    <div class="row">
-                        <div class="span4 offset2">
-                            <h2>Let's get tropical!</h2>
-                            <img class="img-polaroid" src="~/Content/images/butler-tropics-team-logo.png" />
-                        </div>
-                    </div>
-                </div>
+                }
             </div>
             <!-- Carousel nav -->
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-            <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <a class="carousel-control left" href="#homeCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="carousel-control right" href="#homeCarousel" data-slide="next">&rsaquo;</a>
         </div>
     </div>
 </div>

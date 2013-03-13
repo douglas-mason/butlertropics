@@ -5,35 +5,71 @@
     <LastName>Robinson</LastName>
     <Grade>8</Grade>
     <Position>Guard</Position>
-    <Height>5'8"</Height>
-    <JerseyNumber>22</JerseyNumber>
-    <Quote>3 buckets</Quote>
+    <Height></Height>
+    <JerseyNumber>30</JerseyNumber>
+    <Quote></Quote>
   </Player>
   <Player>
     <FirstName>Andrew</FirstName>
     <LastName>Yonkers</LastName>
     <Grade>8</Grade>
-    <Position>Forward</Position>
-    <Height>6'1"</Height>
-    <JerseyNumber>12</JerseyNumber>
-    <Quote>I can dunk too</Quote>
+    <Position>Forward/Center</Position>
+    <Height></Height>
+    <JerseyNumber>24</JerseyNumber>
+    <Quote></Quote>
   </Player>
   <Player>
-    <FirstName>Jake</FirstName>
-    <LastName>J.</LastName>
+    <FirstName>Jacob</FirstName>
+    <LastName>Cafaro</LastName>
     <Grade>8</Grade>
-    <Position>Guard</Position>
-    <Height>5'9"</Height>
-    <JerseyNumber>31</JerseyNumber>
-    <Quote>Double team this</Quote>
+    <Position>Guard/Forward</Position>
+    <Height></Height>
+    <JerseyNumber>7</JerseyNumber>
+    <Quote></Quote>
   </Player>
   <Player>
     <FirstName>Luke</FirstName>
-    <LastName>S.</LastName>
+    <LastName>Haas</LastName>
     <Grade>8</Grade>
     <Position>Guard</Position>
-    <Height>5'6"</Height>
+    <Height></Height>
+    <JerseyNumber>4</JerseyNumber>
+    <Quote></Quote>
+  </Player>
+  <Player>
+    <FirstName>Cullen</FirstName>
+    <LastName>Paulisick</LastName>
+    <Grade>8</Grade>
+    <Position>Guard/Forward</Position>
+    <Height></Height>
     <JerseyNumber>3</JerseyNumber>
-    <Quote>Got Handles</Quote>
+    <Quote></Quote>
+  </Player>
+  <Player>
+    <FirstName>Miguel</FirstName>
+    <LastName>Cuadros</LastName>
+    <Grade>8</Grade>
+    <Position>Forward/Center</Position>
+    <Height></Height>
+    <JerseyNumber>41</JerseyNumber>
+    <Quote></Quote>
+  </Player>
+  <Player>
+    <FirstName>Dawson</FirstName>
+    <LastName>Ammon</LastName>
+    <Grade>8</Grade>
+    <Position>Guard/Forward</Position>
+    <Height></Height>
+    <JerseyNumber>44</JerseyNumber>
+    <Quote></Quote>
+  </Player>
+  <Player>
+    <FirstName>Nick</FirstName>
+    <LastName>Leone</LastName>
+    <Grade>8</Grade>
+    <Position>Guard/Forward</Position>
+    <Height></Height>
+    <JerseyNumber>10</JerseyNumber>
+    <Quote></Quote>
   </Player>
 </Team>
