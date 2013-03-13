@@ -1,5 +1,25 @@
-﻿@{
-    ViewBag.Title = "Index";
+﻿@model IEnumerable<tropical.Models.ViewModels.ScheduleView>
+@{
+    ViewBag.Title = "Schedule";
 }
 
-<h2>Index</h2>
+<h2>Schedule</h2>
+<div class="row">
+    <div class="span9">
+        <table class="table table-striped">
+            <thead>
+                <th>Dates</th>
+                <th>Tournament</th>
+                <th>Location</th>
+            </thead>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Dates</td>
+                    <td>@item.Tournament</td>
+                    <td>@item.Location</td>
+                </tr>
+            }
+        </table>
+     </div>
+</div>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Schedule>
+  <Event>
+    <Id>1</Id>
+    <Dates>March 15-17</Dates>
+    <Tournament>ASE Hempfield Classic</Tournament>
+    <Location>Greensburg, PA</Location>
+    <ScheduledGames>
+      <Game>
+        <DateTime>Saturday, 3/16 @ 10 AM</DateTime>
+      </Game>
+      <Game>
+        <DateTime>Saturday, 3/16 @ 3 PM</DateTime>
+      </Game>
+      <Game>
+        <DateTime>Sunday, 3/17 @ 9 AM</DateTime>
+      </Game>
+    </ScheduledGames>
+  </Event>
+  <Event>
+    <Id>2</Id>
+    <Dates>March 23-24</Dates>
+    <Tournament>Drill For Skill</Tournament>
+    <Location>Slippery Rock, PA</Location>
+  </Event>
+  <Event>
+    <Id>3</Id>
+    <Dates>April 5-7</Dates>
+    <Tournament>North Allegheny Classic</Tournament>
+    <Location>Wexford, PA</Location>
+  </Event>
+  <Event>
+    <Id>4</Id>
+    <Dates>April 19-21</Dates>
+    <Tournament>Rockets Classic</Tournament>
+    <Location>Gibsonia, PA</Location>
+  </Event>
+  <Event>
+    <Id>5</Id>
+    <Dates>May 3-5</Dates>
+    <Tournament>Slippery Rock Jam Fest</Tournament>
+    <Location>Slippery Rock, PA</Location>
+  </Event>
+</Schedule>
